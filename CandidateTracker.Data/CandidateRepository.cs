@@ -26,7 +26,7 @@ namespace CandidateTracker.Data
         public int GetCount(Status status)
         {
             using var ctx = new CandidatesDataContext(_connectionString);
-            return ctx.Candidates.Where(c => c.Status == status).Count();
+            return ctx.Candidates.Count(c => c.Status == status);
         }
 
         public List<Candidate> GetCandidates(Status status)
