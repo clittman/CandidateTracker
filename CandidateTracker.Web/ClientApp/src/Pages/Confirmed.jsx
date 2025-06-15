@@ -15,7 +15,7 @@ const Confirmed = () => {
 
     return <div className="container" style={{ marginTop: 80 }}>
         <h3>Confirmed</h3>
-        <table className="table">
+        <table className="table" style={{tableLayout: 'fixed'}}>
             <thead>
                 <tr>
                     <th>First Name</th>

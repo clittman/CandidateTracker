@@ -15,14 +15,14 @@ const Rejected = () => {
 
     return <div className="container" style={{ marginTop: 80 }}>
         <h3>Rejected</h3>
-        <table className="table">
+        <table className="table" style={{tableLayout: 'fixed'}}>
             <thead>
                 <tr>
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Phone Number</th>
                     <th>Email</th>
-                    <th>Notes</th>
+                    <th >Notes</th>
                 </tr>
             </thead>
             <tbody>

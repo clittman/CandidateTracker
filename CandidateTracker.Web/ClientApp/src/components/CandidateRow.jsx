@@ -10,7 +10,7 @@ const CandidateRow = (props) => {
         <td>{lastName}</td>
         <td>{email}</td>
         <td>{phoneNumber}</td>
-        <td>{notes}</td>
+        <td style={{ wordBreak: 'break-word' }}>{notes}</td>
     </tr>
 }
 

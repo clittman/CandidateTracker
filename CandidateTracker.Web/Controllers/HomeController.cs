@@ -53,7 +53,6 @@ namespace CandidateTracker.Web.Controllers
         {
             CandidateRepository repo = new(_connectionString);
             repo.UpdateStatus(vm.Id, GetStatus(vm.Status));
-            Console.WriteLine(vm.Id);
         }
 
         public Status GetStatus(string status)

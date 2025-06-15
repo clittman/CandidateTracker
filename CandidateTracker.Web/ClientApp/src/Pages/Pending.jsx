@@ -14,7 +14,7 @@ const Pending = () => {
     }, [])
 
     return <div className="container" style={{ marginTop: 80 }}>
-        <table className="table">
+        <table className="table" style={{tableLayout: 'fixed'}}>
             <thead>
                 <tr>
                     <th></th>
